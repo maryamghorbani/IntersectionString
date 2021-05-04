@@ -2,7 +2,7 @@
 
 
 
-function getDifference(s, t)
+function Difference(s, t)
     {
         var i = 0;
         var j = 0;
@@ -20,7 +20,7 @@ function getDifference(s, t)
         return result;
 
     }
-    console.log(getDifference("mary", "maryam"));
+    console.log(Difference("mary", "maryam"));
 
 
      
