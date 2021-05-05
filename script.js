@@ -5,7 +5,7 @@ function Difference(s, t)
         var result = "";
         var regExp = /^[a-z]+$/;
 
-        if( ( s.length <= 1000 ) && (t.length == s.length+1 ) && regExp.test(s) && regExp.test(t) ) {
+        if( ( s.length <= 1000 ) && (t.length == s.length+1 ) && regExp.test(s) && regExp.test(t) || s === "" ) {
         	while (j < t.length)
 	        {
 	         if (s[i] != t[j] || i == s.length)
